@@ -4,6 +4,8 @@ A Windows desktop app that shares **separate connections** across Ethernet, USB 
 
 **Experimental, IPv4 only. This is connection load balancing, not single-stream bandwidth bonding.** No VPS is needed. A remote aggregation endpoint is needed to combine multiple networks for one connection. NetworkHub does not implement that feature.
 
+[Download the experimental Windows build](https://github.com/Dakshankarthic/NetworkHub/releases/tag/v0.1.0-experimental): extract the whole ZIP and open `NetworkHub.exe`. Requirements and limits below apply. The release includes a SHA-256 checksum and source code.
+
 ## What it does
 
 - Detects active network adapters with IPv4 default gateways.
