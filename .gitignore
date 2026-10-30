@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+*.spec
+src/bin/
+*.log
+runtime.json
+app-settings.json
+controller-token.txt
+config.yaml
+previous-proxy.json
+desktop.lock
+ui-self-test.json
+.env
+*.zip
